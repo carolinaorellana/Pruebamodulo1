@@ -10,3 +10,10 @@ window.addEventListener('scroll', function(){
         nav.classList.remove('bg-info', 'shadow');
     }
 })
+
+//tooltip (en cards e iconos de redes sociales) 
+/*Bootstrap 5.1*/
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+})
