@@ -4,3 +4,17 @@ Body{
     background-color: black;
     color: white;
 }
+
+/*Navbar*/
+.logo-nav{
+    width: 1.7rem;
+}
+.titlenav{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.textnav{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
