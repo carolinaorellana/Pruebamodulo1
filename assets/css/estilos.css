@@ -38,3 +38,19 @@ Body{
     font-size: 1rem;
     font-weight: 400;
 }
+
+/*Destacados*/
+.card-img-top{
+    height: 12rem;
+}
+
+/*tooltip cambio de color*/
+.tooltip-inner {
+    background-color:#0dcaf0;
+    color: white;
+    box-shadow: 0px 0px 4px black;
+    opacity: 1 !important;
+}
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #0dcaf0 !important;
+}
