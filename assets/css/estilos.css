@@ -54,3 +54,23 @@ Body{
 .tooltip.bs-tooltip-top .tooltip-arrow::before {
     border-top-color: #0dcaf0 !important;
 }
+
+/*Footer*/
+.backfoot{
+    background-color: #0dcaf0;
+}
+
+.titlefoot{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+/* propiedades de los iconoslinks*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
