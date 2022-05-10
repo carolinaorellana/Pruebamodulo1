@@ -1,5 +1,9 @@
 /*Generales*/
+html{
+    scroll-behavior: smooth;
+}
 Body{
+    
     font-family: 'Raleway', sans-serif;
     background-color: black;
     color: white;
@@ -17,4 +21,20 @@ Body{
     font-weight: 400;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.8);
+}
+
+/*titulos secciones*/
+.titlesect{
+    font-weight: 500;
+    font-size: 2.5;
+    text-transform: uppercase;
+}
+
+/*Sección presentación*/
+.iconpre{
+    background-color: #0dcaf0;
+}
+.textpre{
+    font-size: 1rem;
+    font-weight: 400;
 }
