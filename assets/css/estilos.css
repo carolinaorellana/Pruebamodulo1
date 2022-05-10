@@ -55,6 +55,12 @@ Body{
     border-top-color: #0dcaf0 !important;
 }
 
+/*Sección contacto*/
+.textform{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
 /*Footer*/
 .backfoot{
     background-color: #0dcaf0;
